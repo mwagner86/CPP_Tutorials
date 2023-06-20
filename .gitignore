@@ -1,3 +1,8 @@
+# IDE Options
+/.vscode/*
+/.idea/*
+!/.idea/runConfigurations
+
 # Prerequisites
 *.d
 
@@ -30,3 +35,10 @@
 *.exe
 *.out
 *.app
+
+/CPP_Subjects/*
+/Reference/*
+/cmake-build-debug/
+
+# Executable folder
+/bin/*
