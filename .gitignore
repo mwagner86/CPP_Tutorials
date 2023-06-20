@@ -1,6 +1,6 @@
 # IDE Options
-/.vscode/*
-/.idea/*
+.vscode/
+.idea/
 !/.idea/runConfigurations
 
 # Prerequisites
