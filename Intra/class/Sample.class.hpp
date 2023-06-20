@@ -5,8 +5,12 @@ class Sample {
 
 public:
 
-	Sample();
-	~Sample();
+	int foo;
+
+	Sample( void ); // Constructor
+	~Sample( void ); // Destructor
+
+	void	bar ( void );
 };
 
 #endif
