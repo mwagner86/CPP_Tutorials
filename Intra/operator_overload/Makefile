@@ -1,16 +1,16 @@
 
 VAL 		:= valgrind -s --leak-check=full --show-leak-kinds=all
-RUN 		:= ./ahpoly
+RUN 		:= ./operator_overload
 
 GREEN 		:= \033[0;32m
 RED 		:= \033[0;31m
 RESET_COL 	:= \033[0m
 
-NAME 		:= ahpoly
+NAME 		:= operator_overload
 CC 			:= c++
 CFLAGS 		:= -Wall -Werror -Wextra -std=c++98
-SRC 		:=	ahpolymorphism.cpp \
-				Sample.class.cpp
+SRC 		:=	main.cpp \
+				Integer.class.cpp
 
 all: $(NAME)
 
