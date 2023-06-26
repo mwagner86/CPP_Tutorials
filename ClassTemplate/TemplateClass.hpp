@@ -11,7 +11,7 @@ class Template {
 public:
 
 	Template();
-	Template(int const n);
+	Template(int n);
 	Template(Template const & src);
 	~Template();
 

@@ -5,7 +5,7 @@ Template::Template() {
 	std::cout << "Default Constructor called" << std::endl;
 	this->_foo = 0;
 }
-Template::Template(int const n) {
+Template::Template(int n) {
 	std::cout << "Parametric Constructor called" << std::endl;
 	this->_foo = n;
 }
