@@ -1,6 +1,8 @@
-#pragma once
+
 #ifndef TEMPLATE_CLASS_H
 # define TEMPLATE_CLASS_H
+
+#pragma once
 #include <iostream>
 #define COLOR_DEFAULT "\033[0m"
 #define COLOR_RED "\033[31m"

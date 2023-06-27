@@ -1,5 +1,6 @@
-#include <iostream>
 #include "TemplateClass.hpp"
+
+#include <iostream>
 
 Template::Template() {
 	std::cout << "Default Constructor called" << std::endl;
