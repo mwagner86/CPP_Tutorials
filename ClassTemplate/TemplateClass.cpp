@@ -38,7 +38,7 @@ std::string const & Template::getName() const {
 
 
 Template &	Template::operator=(Template const &rhs) {
-	std::cout << "Assignment operator called" << std::endl;
+	std::cout << "Assignment operator overload called" << std::endl;
 	if ( this != &rhs )
 		this->_foo = rhs.getFoo();
 	return *this;
