@@ -1,4 +1,3 @@
-
 | Casting Operator | Keyword | Use Cases |
 |------------------|---------|-----------|
 | `static_cast`    | `static_cast<new_type>(expression)` | - Implicit conversions between related types.<br>- Expanding and narrowing conversions between numerical types.<br>- Converting pointers within an inheritance hierarchy.<br>- Converting pointers to/from `void*`. |
@@ -6,3 +5,4 @@
 | `reinterpret_cast` | `reinterpret_cast<new_type>(expression)` | - Converting pointers between unrelated types.<br>- Converting pointers to/from integral types, but the resulting behavior is implementation-defined.<br>- Performing low-level reinterpretation of bits.<br>- Interacting with external libraries or hardware. |
 | `const_cast`     | `const_cast<new_type>(expression)` | - Removing `const` or `volatile` qualifiers from a variable.<br>- Enabling modifications to a variable that was originally declared as `const` or `volatile`. |
 | C-style casts    | `(new_type)expression` | - Performing a combination of `static_cast`, `const_cast`, and `reinterpret_cast` in a single cast.<br>- Implicitly invokes various casting operations based on the context, which can lead to potential issues or unintended conversions. |
+| Implicit Conversion | N/A | - Automatic conversions between compatible types, performed by the compiler.<br>- Examples include converting an `int` to a `float`, promoting a `char` to an `int`, etc. |
